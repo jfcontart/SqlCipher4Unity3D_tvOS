@@ -1,13 +1,20 @@
 # SqlCipher4Unity3D_tvOS
 
+## Binairies in repository
+
+We already built default binaries for some versions and pushed in this repository.
+
+## Shell script
+
 SqlCipher4Unity3D build bundle for tvOS©. 
 
 Use with https://github.com/netpyoung/SqlCipher4Unity3D .
 
 You need :
-- be on tvOS
-- install xcode
-- install xcode tools and active Command Lines Tools (in xcode preferences>Locations)
+- **Apple©** computer with **macOS 10.15**
+- install **Xcode 11.3**
+- install **Xcode tools** 
+- Active **Command Lines Tools** (in **Xcode Preferences>Locations**)
 
 ## Use the SQLCipherBuilt_tvOS.sh
 
@@ -48,18 +55,15 @@ All is automatic!
 
 ## Copy in Unity3D project
 
-Copy in "tvOS" folder in Unity3D, select file and check in "Inspector" :
+See https://www.zetetic.net/sqlcipher/sqlcipher-api/ for PRAGMA configurations.
 
-On select **platforms for plugin**
-- Set "Editor" - yes
-- Set "Standalone" - yes
+Copy in "**Plugins**" (create one if necessary) folder in Unity3D, select each file and check in "Inspector" :
 
-On tab **unity**
-- Set "CPU" - Any CPU
-- Set "OS" - OSX
+### tvOS
 
-On tab **standalone**
-- Set "X64" - yes
+For the file **/Plugins/tvOS/libsqlcipher.a**
+
+![TVOS](./TVOS_Inspector.png)
 
 ## LICENCES
 
